@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/10/11 23:43:31.000.298,=C:\Users\Lucas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/10/11 23:43:45.000.696,C:\Gestão_PetShop\src\views\ViewPrincipal.pas=C:\Users\Lucas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/10/11 23:43:45.000.696,C:\Gestão_PetShop\src\views\ViewPrincipal.dfm=C:\Users\Lucas\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/10/11 23:44:07.000.549,C:\Gestão_PetShop\gestaoPET.dproj=C:\Users\Lucas\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/01/17 22:18:22.000.851,=C:\Gestão_PetShop\Unit1.pas</Transaction>
+    <Transaction>2024/01/17 22:20:11.000.566,C:\Gestão_PetShop\src\conexao\uDTM.pas=C:\Gestão_PetShop\Unit1.pas</Transaction>
+    <Transaction>2024/01/17 22:20:11.000.566,C:\Gestão_PetShop\src\conexao\uDTM.dfm=C:\Gestão_PetShop\Unit1.dfm</Transaction>
+    <Transaction>2024/01/20 18:17:19.000.685,=C:\Gestão_PetShop\Unit1.pas</Transaction>
+    <Transaction>2024/01/20 18:20:34.000.081,=C:\Gestão_PetShop\Unit1.pas</Transaction>
+    <Transaction>2024/01/20 18:23:36.000.951,C:\Gestão_PetShop\src\conexao\Service.conexao.dfm=C:\Gestão_PetShop\Unit1.dfm</Transaction>
+    <Transaction>2024/01/20 18:23:36.000.951,C:\Gestão_PetShop\src\conexao\Service.conexao.pas=C:\Gestão_PetShop\Unit1.pas</Transaction>
+    <Transaction>2024/01/20 18:42:30.000.004,=C:\Gestão_PetShop\Unit1.pas</Transaction>
+    <Transaction>2024/01/20 18:42:54.000.424,C:\Gestão_PetShop\Unit1.dfm=C:\Gestão_PetShop\src\conexao\Service.conexao.dfm</Transaction>
+    <Transaction>2024/01/20 18:42:54.000.424,C:\Gestão_PetShop\Unit1.pas=C:\Gestão_PetShop\src\conexao\Service.conexao.pas</Transaction>
+    <Transaction>2024/01/20 18:46:30.000.608,=C:\Gestão_PetShop\Unit1.pas</Transaction>
+    <Transaction>2024/01/20 18:46:44.000.281,C:\Gestão_PetShop\Unit1.dfm=C:\Gestão_PetShop\src\conexao\Service.cadastro.dfm</Transaction>
+    <Transaction>2024/01/20 18:46:44.000.281,C:\Gestão_PetShop\Unit1.pas=C:\Gestão_PetShop\src\conexao\Service.cadastro.pas</Transaction>
+    <Transaction>2024/01/20 20:04:55.000.889,=C:\Gestão_PetShop\Unit1.pas</Transaction>
+    <Transaction>2024/01/20 20:16:36.000.189,C:\Gestão_PetShop\Unit1.pas=C:\Gestão_PetShop\src\providers\Provider.constants.pas</Transaction>
+    <Transaction>2024/01/22 21:50:53.000.917,=C:\Gestão_PetShop\Unit1.pas</Transaction>
+    <Transaction>2024/01/22 21:51:15.000.431,C:\Gestão_PetShop\src\views\View.Base.dfm=C:\Gestão_PetShop\Unit1.dfm</Transaction>
+    <Transaction>2024/01/22 21:51:15.000.431,C:\Gestão_PetShop\src\views\View.Base.pas=C:\Gestão_PetShop\Unit1.pas</Transaction>
+    <Transaction>2024/01/22 22:30:44.000.673,=C:\Gestão_PetShop\Unit1.pas</Transaction>
+    <Transaction>2024/01/22 22:31:16.000.913,C:\Gestão_PetShop\src\views\View.Base.Listas.dfm=C:\Gestão_PetShop\Unit1.dfm</Transaction>
+    <Transaction>2024/01/22 22:31:16.000.913,C:\Gestão_PetShop\src\views\View.Base.Listas.pas=C:\Gestão_PetShop\Unit1.pas</Transaction>
+    <Transaction>2024/01/25 22:14:26.000.542,=C:\Gestão_PetShop\Unit1.pas</Transaction>
+    <Transaction>2024/01/25 22:15:00.000.196,C:\Gestão_PetShop\src\views\View.clientes.dfm=C:\Gestão_PetShop\Unit1.dfm</Transaction>
+    <Transaction>2024/01/25 22:15:00.000.196,C:\Gestão_PetShop\src\views\View.clientes.pas=C:\Gestão_PetShop\Unit1.pas</Transaction>
+    <Transaction>2024/02/06 21:27:38.000.824,=C:\Gestão_PetShop\Unit1.pas</Transaction>
+    <Transaction>2024/02/20 12:54:33.000.500,=C:\Gestão_PetShop\Unit1.pas</Transaction>
+    <Transaction>2024/02/20 12:55:04.000.697,C:\Gestão_PetShop\src\views\View.Fornecedores.pas=C:\Gestão_PetShop\Unit1.pas</Transaction>
+    <Transaction>2024/02/20 12:55:04.000.697,C:\Gestão_PetShop\src\views\View.Fornecedores.dfm=C:\Gestão_PetShop\Unit1.dfm</Transaction>
+    <Transaction>2024/03/01 12:12:44.000.576,=C:\Gestão_PetShop\Unit1.pas</Transaction>
+    <Transaction>2024/03/01 12:13:25.000.235,C:\Gestão_PetShop\Unit1.dfm=C:\Gestão_PetShop\src\views\View.Produtos.dfm</Transaction>
+    <Transaction>2024/03/01 12:13:25.000.235,C:\Gestão_PetShop\Unit1.pas=C:\Gestão_PetShop\src\views\View.Produtos.pas</Transaction>
+  </Transactions>
+</BorlandProject>
