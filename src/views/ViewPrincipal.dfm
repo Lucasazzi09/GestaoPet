@@ -11,7 +11,7 @@
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
-  Position = poDesigned
+  Position = poDefault
   WindowState = wsMaximized
   OnShow = FormShow
   PixelsPerInch = 96
@@ -301,7 +301,7 @@
         Height = 50
         Cursor = crHandPoint
         Margins.Top = 25
-        Margins.Bottom = 0
+        Margins.Bottom = 10
         Align = alTop
         Caption = '[ CLIENTES ]'
         Flat = True
@@ -319,12 +319,12 @@
       object btnCaixa: TSpeedButton
         AlignWithMargins = True
         Left = 3
-        Top = 75
+        Top = 85
         Width = 169
         Height = 50
         Cursor = crHandPoint
         Margins.Top = 0
-        Margins.Bottom = 0
+        Margins.Bottom = 10
         Align = alTop
         Caption = '[ CAIXA ]'
         Flat = True
@@ -337,16 +337,17 @@
         ParentFont = False
         OnClick = btnCaixaClick
         ExplicitLeft = 6
+        ExplicitTop = 75
       end
       object btnFornecedores: TSpeedButton
         AlignWithMargins = True
         Left = 3
-        Top = 125
+        Top = 145
         Width = 169
         Height = 50
         Cursor = crHandPoint
         Margins.Top = 0
-        Margins.Bottom = 0
+        Margins.Bottom = 10
         Align = alTop
         Caption = '[ FORNECEDORES ]'
         Flat = True
@@ -359,16 +360,17 @@
         ParentFont = False
         OnClick = btnFornecedoresClick
         ExplicitLeft = 6
+        ExplicitTop = 125
       end
       object btnProdutos: TSpeedButton
         AlignWithMargins = True
         Left = 3
-        Top = 175
+        Top = 265
         Width = 169
         Height = 50
         Cursor = crHandPoint
         Margins.Top = 0
-        Margins.Bottom = 0
+        Margins.Bottom = 10
         Align = alTop
         Caption = '[ PRODUTOS ]'
         Flat = True
@@ -381,11 +383,12 @@
         ParentFont = False
         OnClick = btnProdutosClick
         ExplicitLeft = 0
+        ExplicitTop = 175
       end
       object btnConfig: TSpeedButton
         AlignWithMargins = True
         Left = 3
-        Top = 325
+        Top = 485
         Width = 169
         Height = 50
         Cursor = crHandPoint
@@ -403,6 +406,53 @@
         ParentFont = False
         OnClick = btnConfigClick
         ExplicitLeft = 0
+        ExplicitTop = 325
+      end
+      object btnVendas: TSpeedButton
+        AlignWithMargins = True
+        Left = 3
+        Top = 325
+        Width = 169
+        Height = 50
+        Cursor = crHandPoint
+        Margins.Top = 0
+        Margins.Bottom = 10
+        Align = alTop
+        Caption = '[ VENDAS ]'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        Margin = 5
+        ParentFont = False
+        OnClick = btnVendasClick
+        ExplicitLeft = 6
+        ExplicitTop = 225
+      end
+      object btnFuncionarios: TSpeedButton
+        AlignWithMargins = True
+        Left = 3
+        Top = 205
+        Width = 169
+        Height = 50
+        Cursor = crHandPoint
+        Margins.Top = 0
+        Margins.Bottom = 10
+        Align = alTop
+        Caption = '[ FUNCION'#193'RIOS ]'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        Margin = 5
+        ParentFont = False
+        OnClick = btnFuncionariosClick
+        ExplicitLeft = 6
+        ExplicitTop = 147
       end
     end
     object panShapeMenu: TPanel
@@ -1272,7 +1322,8 @@
         000000604200030000000000004C08600000000000008009010C000000000000
         30218001000000000000260430000000000000C084000600000000000098080A
         FDD8DEC617D6620000000049454E44AE426082}
-      ExplicitWidth = 593
+      ExplicitLeft = 3
+      ExplicitTop = -3
     end
   end
 end

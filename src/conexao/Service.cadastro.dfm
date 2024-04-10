@@ -207,4 +207,33 @@ object DMcadastro: TDMcadastro
       Size = 2
     end
   end
+  object QryFuncionarios: TFDQuery
+    Active = True
+    Connection = DMconexao.conexao
+    SQL.Strings = (
+      'SELECT * FROM TAB_FUNCIONARIO;')
+    Left = 248
+    Top = 24
+    object QryFuncionariosCOD_FUNC: TIntegerField
+      AutoGenerateValue = arAutoInc
+      FieldName = 'COD_FUNC'
+      Origin = 'COD_FUNC'
+      Required = True
+    end
+    object QryFuncionariosNOME_FUNC: TStringField
+      FieldName = 'NOME_FUNC'
+      Origin = 'NOME_FUNC'
+      Size = 100
+    end
+    object QryFuncionariosTELEFONE: TStringField
+      FieldName = 'TELEFONE'
+      Origin = 'TELEFONE'
+      Size = 16
+    end
+    object QryFuncionariosCPFCNPJ: TStringField
+      FieldName = 'CPF/CNPJ'
+      Origin = '"CPF/CNPJ"'
+      Size = 25
+    end
+  end
 end

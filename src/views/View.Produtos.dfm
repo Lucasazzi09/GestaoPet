@@ -7,7 +7,7 @@ inherited ViewProdutos: TViewProdutos
       Width = 873
       Height = 41
       Caption = 'Produtos'
-      ExplicitWidth = 873
+      ExplicitWidth = 77
     end
     inherited panFechar: TPanel
       inherited btnSair: TSpeedButton
@@ -35,7 +35,6 @@ inherited ViewProdutos: TViewProdutos
   inherited panFundo: TPanel
     inherited cardPanel_Listas: TCardPanel
       inherited card_cadastro: TCard
-        ExplicitTop = 6
         object lblCodProd: TLabel
           Left = 72
           Top = 56
@@ -206,6 +205,7 @@ inherited ViewProdutos: TViewProdutos
               Expanded = False
               FieldName = 'COD_BARRA'
               Title.Caption = 'C'#211'DIGO BARRAS'
+              Width = 64
               Visible = True
             end
             item
@@ -222,6 +222,7 @@ inherited ViewProdutos: TViewProdutos
               Expanded = False
               FieldName = 'SIT_TRIBUTARIA'
               Title.Caption = 'TRIBUTA'#199#195'O'
+              Width = 64
               Visible = True
             end
             item
@@ -275,6 +276,7 @@ inherited ViewProdutos: TViewProdutos
               item
                 Expanded = False
                 FieldName = 'ESTOQUE'
+                Width = 64
                 Visible = True
               end>
           end

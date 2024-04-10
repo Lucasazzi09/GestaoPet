@@ -55,6 +55,11 @@ type
     QryProdutosCUSTO: TFMTBCDField;
     QryProdutosPRECO_VENDA: TFMTBCDField;
     QryProdutosESTOQUE: TFMTBCDField;
+    QryFuncionarios: TFDQuery;
+    QryFuncionariosCOD_FUNC: TIntegerField;
+    QryFuncionariosNOME_FUNC: TStringField;
+    QryFuncionariosTELEFONE: TStringField;
+    QryFuncionariosCPFCNPJ: TStringField;
     procedure QryClientesTIPO_CLIGetText(Sender: TField; var Text: string;
       DisplayText: Boolean);
   private

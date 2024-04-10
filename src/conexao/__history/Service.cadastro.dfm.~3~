@@ -1,0 +1,209 @@
+object DMcadastro: TDMcadastro
+  Height = 259
+  Width = 351
+  PixelsPerInch = 96
+  object QryClientes: TFDQuery
+    Connection = DMconexao.conexao
+    SQL.Strings = (
+      'SELECT * FROM TAB_CLIENTE;')
+    Left = 40
+    Top = 24
+    object QryClientesCOD_CLI: TIntegerField
+      AutoGenerateValue = arAutoInc
+      FieldName = 'COD_CLI'
+      Origin = 'COD_CLI'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object QryClientesNOME_CLI: TStringField
+      FieldName = 'NOME_CLI'
+      Origin = 'NOME_CLI'
+      Size = 100
+    end
+    object QryClientesCPFCNPJ: TStringField
+      FieldName = 'CPF/CNPJ'
+      Origin = '"CPF/CNPJ"'
+      Size = 25
+    end
+    object QryClientesTELEFONE: TStringField
+      FieldName = 'TELEFONE'
+      Origin = 'TELEFONE'
+      Size = 16
+    end
+    object QryClientesTIPO_CLI: TStringField
+      FieldName = 'TIPO_CLI'
+      Origin = 'TIPO_CLI'
+      OnGetText = QryClientesTIPO_CLIGetText
+      Size = 50
+    end
+    object QryClientesCEP: TStringField
+      FieldName = 'CEP'
+      Origin = 'CEP'
+      Size = 9
+    end
+    object QryClientesCIDADE: TStringField
+      FieldName = 'CIDADE'
+      Origin = 'CIDADE'
+      Size = 100
+    end
+    object QryClientesENDERECO: TStringField
+      FieldName = 'ENDERECO'
+      Origin = 'ENDERECO'
+      Size = 100
+    end
+    object QryClientesBAIRRO: TStringField
+      FieldName = 'BAIRRO'
+      Origin = 'BAIRRO'
+      Size = 100
+    end
+    object QryClientesNUMERO: TStringField
+      FieldName = 'NUMERO'
+      Origin = 'NUMERO'
+    end
+    object QryClientesOBSERVACAO: TStringField
+      FieldName = 'OBSERVACAO'
+      Origin = 'OBSERVACAO'
+      Size = 100
+    end
+  end
+  object QryFornecedores: TFDQuery
+    Active = True
+    Connection = DMconexao.conexao
+    SQL.Strings = (
+      'SELECT * FROM TAB_FORNECEDOR;')
+    Left = 144
+    Top = 24
+    object QryFornecedoresCOD_FORN: TIntegerField
+      AutoGenerateValue = arAutoInc
+      DisplayLabel = 'C'#211'DIGO'
+      DisplayWidth = 10
+      FieldName = 'COD_FORN'
+      Origin = 'COD_FORN'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object QryFornecedoresNOME_FORN: TStringField
+      DisplayLabel = 'NOME FORNECEDOR'
+      DisplayWidth = 33
+      FieldName = 'NOME_FORN'
+      Origin = 'NOME_FORN'
+      Size = 100
+    end
+    object QryFornecedoresCNPJ: TStringField
+      DisplayWidth = 18
+      FieldName = 'CNPJ'
+      Origin = 'CNPJ'
+      Size = 18
+    end
+    object QryFornecedoresTELEFONE: TStringField
+      DisplayWidth = 16
+      FieldName = 'TELEFONE'
+      Origin = 'TELEFONE'
+      Size = 16
+    end
+    object QryFornecedoresCEP: TStringField
+      DisplayWidth = 9
+      FieldName = 'CEP'
+      Origin = 'CEP'
+      Size = 9
+    end
+    object QryFornecedoresCIDADE: TStringField
+      DisplayWidth = 100
+      FieldName = 'CIDADE'
+      Origin = 'CIDADE'
+      Size = 100
+    end
+    object QryFornecedoresENDERECO: TStringField
+      DisplayLabel = 'ENDERE'#199'O'
+      DisplayWidth = 100
+      FieldName = 'ENDERECO'
+      Origin = 'ENDERECO'
+      Size = 100
+    end
+    object QryFornecedoresBAIRRO: TStringField
+      DisplayWidth = 100
+      FieldName = 'BAIRRO'
+      Origin = 'BAIRRO'
+      Size = 100
+    end
+    object QryFornecedoresOBSERVACAO: TStringField
+      DisplayLabel = 'OBSERVA'#199#195'O'
+      DisplayWidth = 100
+      FieldName = 'OBSERVACAO'
+      Origin = 'OBSERVACAO'
+      Size = 100
+    end
+    object QryFornecedoresNUMERO: TStringField
+      DisplayLabel = 'N'#218'MERO'
+      DisplayWidth = 20
+      FieldName = 'NUMERO'
+      Origin = 'NUMERO'
+    end
+  end
+  object QryProdutos: TFDQuery
+    Active = True
+    Connection = DMconexao.conexao
+    SQL.Strings = (
+      'SELECT * FROM TAB_PRODUTO;')
+    Left = 40
+    Top = 96
+    object QryProdutosCOD_PROD: TIntegerField
+      AutoGenerateValue = arAutoInc
+      FieldName = 'COD_PROD'
+      Origin = 'COD_PROD'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object QryProdutosNOME_PROD: TStringField
+      FieldName = 'NOME_PROD'
+      Origin = 'NOME_PROD'
+      Size = 25
+    end
+    object QryProdutosDESCRICAO: TStringField
+      FieldName = 'DESCRICAO'
+      Origin = 'DESCRICAO'
+      Size = 50
+    end
+    object QryProdutosCOD_BARRA: TStringField
+      FieldName = 'COD_BARRA'
+      Origin = 'COD_BARRA'
+      Size = 50
+    end
+    object QryProdutosGRUPO: TIntegerField
+      FieldName = 'GRUPO'
+      Origin = 'GRUPO'
+    end
+    object QryProdutosSUBGRUPO: TIntegerField
+      FieldName = 'SUBGRUPO'
+      Origin = 'SUBGRUPO'
+    end
+    object QryProdutosSIT_TRIBUTARIA: TIntegerField
+      FieldName = 'SIT_TRIBUTARIA'
+      Origin = 'SIT_TRIBUTARIA'
+    end
+    object QryProdutosNCM: TIntegerField
+      FieldName = 'NCM'
+      Origin = 'NCM'
+    end
+    object QryProdutosCUSTO: TFMTBCDField
+      FieldName = 'CUSTO'
+      Origin = 'CUSTO'
+      currency = True
+      Precision = 18
+      Size = 2
+    end
+    object QryProdutosPRECO_VENDA: TFMTBCDField
+      FieldName = 'PRECO_VENDA'
+      Origin = 'PRECO_VENDA'
+      currency = True
+      Precision = 18
+      Size = 2
+    end
+    object QryProdutosESTOQUE: TFMTBCDField
+      FieldName = 'ESTOQUE'
+      Origin = 'ESTOQUE'
+      Precision = 18
+      Size = 2
+    end
+  end
+end

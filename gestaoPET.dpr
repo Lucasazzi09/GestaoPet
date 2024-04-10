@@ -9,7 +9,8 @@ uses
   View.Base.Listas in 'src\views\View.Base.Listas.pas' {ViewBaseListas},
   View.clientes in 'src\views\View.clientes.pas' {ViewClientes},
   View.Fornecedores in 'src\views\View.Fornecedores.pas' {ViewFornecedores},
-  View.Produtos in 'src\views\View.Produtos.pas' {ViewProdutos};
+  View.Produtos in 'src\views\View.Produtos.pas' {ViewProdutos},
+  View.funcionarios in 'src\views\View.funcionarios.pas' {ViewFuncionarios};
 
 {$R *.res}
 
